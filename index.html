@@ -54,11 +54,8 @@
             </thead>
             <tbody>
             <tr>
-                <td>name here</td>
-                <td>role here</td>
-                <td>start here</td>
+            <!-- Insert additional rows here -->
             </tr>
-            <!-- Insert additional movie rows here -->
             </tbody>
         </table>
     </div>
@@ -68,7 +65,7 @@
                 <form>
                     <div class="form-group">
                         <label for="train">Train Name</label>
-                        <input type="train" class="form-control" id="destInput" placeholder="Train Name">
+                        <input type="train" class="form-control" id="trainInput" placeholder="Train Name">
                     </div>
                     <div class="form-group">
                         <label for="dest">Destination</label>
@@ -76,10 +73,10 @@
                     </div>
                     <div class="form-group">
                         <label for="arrival">First Train Time (HH:mm) - Military Time</label>
-                        <input type="arrival" class="form-control" id="arrivalInput" placeholder="Time">
+                        <input type="arrival" class="form-control" id="arrivalInput" placeholder="00:00">
                     </div>
                     <div class="form-group">
-                        <label for="freq">Frequency (minutes)</label>
+                        <label for="freq">Frequency (HH:mm)</label>
                         <input type="freq" class="form-control" id="freqInput" placeholder="00:00">
                     </div>
                     <button id="submit" type="submit" class="btn btn-primary">Submit</button>
@@ -95,7 +92,7 @@
             </p>
         </div>
     </footer>
-    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
-    <script type="text/javascript" src="assets/javasript/app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
 </html>
