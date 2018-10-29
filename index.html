@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Scheduler</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>  
+</head>
+<body>
+    <header id="masthead">
+            <a class="navbar-brand active" href="index.html">Denise Stark</a>
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>                   
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dstark88.github.io/Bootstrap-Portfolio/index.html">About<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://dstark88.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://dstark88.github.io/Bootstrap-Portfolio/contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-4">Train Destination</h1>
+            <p class="lead">Catch a train to the Undying Lands?</p>
+        </div>
+    </div>
+
+    <div class="container schedule">
+        <h2>Current Train Schedule</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <!-- The scope attribute specifies that this is a header for a column -->
+                <th scope="col">Train Name</th>
+                <th scope="col">Destination</th>
+                <th scope="col">Frequency (min)</th>
+                <th scope="col">Next Arrival</th>
+                <th scope="col">Minutes Away</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>name here</td>
+                <td>role here</td>
+                <td>start here</td>
+            </tr>
+            <!-- Insert additional movie rows here -->
+            </tbody>
+        </table>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-group">
+                        <label for="train">Train Name</label>
+                        <input type="train" class="form-control" id="destInput" placeholder="Train Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="dest">Destination</label>
+                        <input type="dest" class="form-control" id="destInput" placeholder="Destination Unknown">
+                    </div>
+                    <div class="form-group">
+                        <label for="arrival">First Train Time (HH:mm) - Military Time</label>
+                        <input type="arrival" class="form-control" id="arrivalInput" placeholder="Time">
+                    </div>
+                    <div class="form-group">
+                        <label for="freq">Frequency (minutes)</label>
+                        <input type="freq" class="form-control" id="freqInput" placeholder="00:00">
+                    </div>
+                    <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>   
+</body>
+
+    <footer>
+        <div class="foot-container">
+            <p> &copy;2018 Denise Stark
+            </p>
+        </div>
+    </footer>
+    <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+    <script type="text/javascript" src="assets/javasript/app.js"></script>
+</body>
+</html>
