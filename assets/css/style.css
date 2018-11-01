@@ -1,6 +1,6 @@
 body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 34px;
     color: #4aaaa5;
     background-image: url("../images/purty_wood.png");
@@ -23,9 +23,8 @@ h1 {
     line-height: 49px;
 }
 
-h2 {
-    font-size: 22px;
-    padding-bottom: 10px;
+p {
+    font-size: 24px;
     margin-bottom: 15px;
     line-height: 22px;
 }
@@ -113,6 +112,10 @@ nav a:first-child {
 .schedule {
     padding: 15px 0 10px 0;
     margin-bottom: 30px;
+}
+.clock {
+    font-weight: bold;
+    font-size: 26px;
 }
 
 #submit {
