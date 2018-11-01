@@ -15,18 +15,13 @@ h2 {
     font-weight: 700;
     text-align: center;
     color: #4aaaa5;
+    font-size: 22px;
 }
 
 h1 {
-    padding-bottom: 10px;
-    font-size: 30px;
-    line-height: 49px;
-}
-
-p {
-    font-size: 24px;
-    margin-bottom: 15px;
-    line-height: 22px;
+    padding-bottom: 5px;
+    font-size: 50px;
+    line-height: 50px;
 }
 
 /* header */
@@ -125,10 +120,10 @@ nav a:first-child {
 
 /* footer */
 footer {
+    /* font-size: 16px; */
     width: 100%;
-    margin-top: 5px;
+    margin-top: 20px;
     padding: 5px 0;
-    /* clear: both; */
     font-size: 12px;
     color: #ffffff;
     color: #cccccc;

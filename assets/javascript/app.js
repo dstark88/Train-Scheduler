@@ -21,7 +21,7 @@ window.addEventListener("load", function() {
 
     this.setInterval(function() {
         var now = moment();
-        var visibleTime = now.format('MMM-DD-YYYY LTS');
+        var visibleTime = now.format('MMM-DD-YYYY, LTS');
         clock.textContent = visibleTime;
     },1000)
 })
