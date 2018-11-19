@@ -33,7 +33,6 @@ h1 {
     overflow: auto;
     color: #ffffff;
     background-image: url("../images/cheap_diagonal_fabric.png");
-    border-bottom: 2px solid #cccccc;
 }
 @media screen and (max-width: 640px) {
 #masthead {
